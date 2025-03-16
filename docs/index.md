@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "MY First VitePress"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Minecraft"
+  text: "服务器搭建指南"
+  tagline: Minecraft Server Building Guide
   actions:
     - theme: brand
       text: Markdown Examples
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: brand
+      text: dasdHelloasd
+      link: /api-hello
 
 features:
   - title: Feature A
@@ -20,6 +23,8 @@ features:
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
+    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Feature D
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

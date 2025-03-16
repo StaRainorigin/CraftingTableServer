@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "MY First VitePress",
-  description: "A VitePress Site",
+  title: "CraftingTableServer",
+  description: "服务器搭建指南",
   base: '/CraftingTableServer/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -17,13 +17,20 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          
+        ]
+      },
+      {
+        text: 'Examoles2',
+        items: [
+          { text: 'Test page', link: '/api-hello'}
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/StaRainorigin/CraftingTableServer' }
     ]
   }
 })
