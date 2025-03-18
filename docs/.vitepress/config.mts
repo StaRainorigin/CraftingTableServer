@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CraftingTableServer",
   description: "服务器搭建指南",
-  base: '/CraftingTableServer/',
+  // base: '/CraftingTableServer/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
