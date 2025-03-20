@@ -38,3 +38,7 @@ yarn run docs:dev
 1. 在 文档目录 `./docs` 中创建 markdown 文件, 编写内容
 
 2. 打开 `./docs/.vitepress/config.mts`, 找到 `themeConfig` 中的 `sidebar` 处, 添加你所写的文档
+
+
+# 其他
+**请fork到自己的仓库, 提交pr**
