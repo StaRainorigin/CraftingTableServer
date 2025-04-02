@@ -22,22 +22,31 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/快速开始' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '基本搭建',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-          
+          { text: '必要环境', link: '/必要环境' },
+          { text: '快速开始', link: '/快速开始' },
+          { text: '服务端介绍', link: '/服务端介绍' },
+          { text: '网络连接', link: '/网络连接' },
         ]
       },
       {
-        text: 'Examoles2',
+        text: '插件服搭建',
         items: [
-          { text: 'Test page', link: '/api-hello'}
+          { text: '开一个插件服', link: '/开启一个插件服'},
+          { text: '插件服资源汇总', link: '/插件服资源汇总'}
+        ]
+      },
+      {
+        text: '模组服搭建',
+        items: [
+          { text: '开启一个模组服', link: '/开启一个模组服'},
+          { text: '模组服资源汇总', link: '/模组服资源汇总'}
         ]
       }
     ],
