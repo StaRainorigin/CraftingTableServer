@@ -31,14 +31,14 @@ export default defineConfig({
         items: [
           { text: '必要环境', link: '/必要环境' },
           { text: '快速开始', link: '/快速开始' },
-          { text: '服务端介绍', link: '/服务端介绍' },
+          { text: '概念介绍', link: '/概念介绍' },
           { text: '网络连接', link: '/网络连接' },
         ]
       },
       {
         text: '插件服搭建',
         items: [
-          { text: '开一个插件服', link: '/开启一个插件服'},
+          { text: '开启一个插件服', link: '/开启一个插件服'},
           { text: '插件服资源汇总', link: '/插件服资源汇总'}
         ]
       },
