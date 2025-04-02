@@ -22,13 +22,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/快速开始' }
+      { text: 'Documents', link: '/阅读指南' }
     ],
 
     sidebar: [
       {
         text: '基本搭建',
         items: [
+          { text: '阅读指南', link: '/阅读指南' },
           { text: '必要环境', link: '/必要环境' },
           { text: '快速开始', link: '/快速开始' },
           { text: '概念介绍', link: '/概念介绍' },

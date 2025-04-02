@@ -11,8 +11,8 @@ hero:
       text: 快速开始
       link: /快速开始
     - theme: alt
-      text: 查看文档
-      link: /必要环境
+      text: 阅读指南
+      link: /阅读指南
 
 features:
   - title: Feature A
