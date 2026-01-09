@@ -10,12 +10,11 @@ hero:
     - theme: brand
       text: 开始搭建
       link: /environment
+      text: 快速开始
+      link: /快速开始
     - theme: alt
-      text: API Examples
-      link: /api-examples
-    - theme: brand
-      text: dasdHelloasd
-      link: /api-hello
+      text: 阅读指南
+      link: /阅读指南
 
 features:
   - title: 简单易学
