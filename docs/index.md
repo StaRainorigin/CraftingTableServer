@@ -8,8 +8,8 @@ hero:
   tagline: Minecraft Server Building Guide
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始搭建
+      link: /environment
     - theme: alt
       text: API Examples
       link: /api-examples
@@ -18,8 +18,8 @@ hero:
       link: /api-hello
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 简单易学
+    details: 从0开始快速上手
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
