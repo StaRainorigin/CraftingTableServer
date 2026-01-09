@@ -1,8 +1,7 @@
-# 下载服务端核心
-推荐使用: [PaperMc]([Paper Downloads | PaperMC](https://papermc.io/downloads/paper)) 
+# Paper核心
 
-# 启动服务器
-## 同意 EULA
+## 启动服务器
+### 同意 EULA
 EULA 为 "Minecraft 最终用户许可协议", 具体内容详见: https://www.minecraft.net/zh-hans/eula
 想开启Minecraft服务端, 必须同意EULA
 创建 `eula.txt`, 并输入
@@ -10,7 +9,7 @@ EULA 为 "Minecraft 最终用户许可协议", 具体内容详见: https://www.m
 eula=true
 ```
 
-## 创建启动文件
+### 创建启动文件
 
 在服务端**核心文件同目录**下创建 `run.bat`(windows)/`run.sh`(Linux), 内容为:
 ```shell
@@ -27,8 +26,8 @@ windows: 双击 `run.bat`
 Linux: 输入 `sudo ./run.sh`
 
 
-# 常见问题
-## 未配置 Java 环境变量
+## 常见问题
+### 未配置 Java 环境变量
 解决方案一:
 - 重新配置环境变量
 
@@ -46,14 +45,14 @@ JAVA_PATH="<Java根目录>/bin/java"
 "$JAVA_PATH" -jar -Xms最小内存 -Xmx最大内存 <服务端核心名>.jar nogui
 ```
 :::
-## Java 版本错误
+### Java 版本错误
 - 当前Minecraft版本 与 当前Java版本 **不兼容**
 	- 参照[[必要环境]]中的Java推荐版本, 重新安装Java环境
 - 系统中有多个 Java 版本, 且默认 Java 版本与当前Minecraft版本不兼容
 	- 同 "未配置Java环境变量" 解决方案
 
 
-## 创建启动文件
+### 创建启动文件
 
 在服务端**核心文件同目录**下创建 `run.bat`(windows)/`run.sh`(Linux), 内容为:
 ::: code-group
