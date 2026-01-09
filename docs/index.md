@@ -8,8 +8,6 @@ hero:
   tagline: Minecraft Server Building Guide
   actions:
     - theme: brand
-      text: 开始搭建
-      link: /environment
       text: 快速开始
       link: /快速开始
     - theme: alt

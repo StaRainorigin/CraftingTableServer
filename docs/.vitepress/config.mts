@@ -40,6 +40,9 @@ export default defineConfig({
           { text: 'Paper', link: '/paper'},
           { text: 'Purpur', link: '/purpur' },
           { text: 'Folia', link: '/folia'},
+        ]
+      },
+      {
         text: '基本搭建',
         items: [
           { text: '阅读指南', link: '/阅读指南' },
